@@ -14,6 +14,7 @@ func main() {
 	sayNumber()
 	sayArray()
 	sayTime()
+	saySwap()
 }
 
 func sayHello() {
@@ -47,6 +48,15 @@ func sayTime() {
 	fmt.Println("This time is", time.Now())
 }
 
+func saySwap() {
+	a, b := swap("apple", "banana")
+	fmt.Println(a, b)
+}
+
 func add(x, y int) int {
 	return x + y
+}
+
+func swap(str1, str2 string) (string, string) {
+	return str2, str1
 }
