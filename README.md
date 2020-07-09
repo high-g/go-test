@@ -1,2 +1,2 @@
-# go_test
+# go-test
 go言語
